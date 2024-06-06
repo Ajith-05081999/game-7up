@@ -1,11 +1,9 @@
-/* App.css */
-
 body {
   background-color: yellow;
   margin: 0;
-  /* Reset default margin */
+
   padding: 0;
-  /* Reset default padding */
+
 }
 
 .main {
@@ -32,7 +30,7 @@ body {
   font-weight: bold;
 }
 
-/* Message Styling */
+
 .message {
   margin-top: 20px;
 }
@@ -49,7 +47,7 @@ body {
   color: gray;
 }
 
-/* BetOptions.css */
+
 .dice-button {
   background-color: rgb(1, 93, 1) !important;
   color: white !important;
