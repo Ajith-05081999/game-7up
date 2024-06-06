@@ -1,5 +1,13 @@
 /* App.css */
 
+body {
+  background-color: yellow;
+  margin: 0;
+  /* Reset default margin */
+  padding: 0;
+  /* Reset default padding */
+}
+
 .main {
   display: flex;
   justify-content: center;
