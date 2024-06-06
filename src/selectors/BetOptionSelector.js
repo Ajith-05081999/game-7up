@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Button, Typography } from '@mui/material';
+import './BetAmountSelector.css'
 
 const BetOptionSelector = ({ setBetOption }) => (
   <Grid container spacing={2}>

@@ -1,13 +1,48 @@
+/* App.css */
+
 .main {
-  display: grid;
-  align-content: center;
+  display: flex;
+  justify-content: center;
   text-align: center;
+  align-items: flex-start;
   height: 100vh;
+  background-color: yellow;
+  width: 100% !important;
+}
+
+.header {
+  color: green;
+}
+
+.container-1 {
+  margin-top: 150px;
+  font-weight: bold !important;
+}
+
+.amount {
+  color: green;
+  font-weight: bold;
+}
+
+/* Message Styling */
+.message {
+  margin-top: 20px;
+}
+
+.message.won {
+  color: green;
+}
+
+.message.lost {
+  color: red;
+}
+
+.message.neutral {
+  color: gray;
 }
 
 /* BetOptions.css */
 .dice-button {
-
   background-color: rgb(1, 93, 1) !important;
   color: white !important;
   padding: 10px !important;
@@ -19,7 +54,10 @@
 .dice-button:hover {
   background-color: transparent !important;
   color: green !important;
-
-  border: 1px solid black;
+  border: 1px solid green !important;
   opacity: 0.8;
+}
+
+.result-1 {
+  color: rebeccapurple !important;
 }

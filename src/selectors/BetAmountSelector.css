@@ -1,4 +1,3 @@
-
 .bet-button {
     color: green !important;
     background-color: transparent !important;
@@ -6,7 +5,8 @@
     font-family: Arial !important;
     margin-right: 5px !important;
     margin-top: 10px !important;
-
+    border: 2px solid green !important;
+    font-weight: bold !important;
 }
 
 .bet-button:focus {

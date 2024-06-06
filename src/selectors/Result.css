@@ -1,0 +1,9 @@
+.result {
+    color: green;
+    font-weight: bold !important;
+}
+
+.dice {
+    color: rebeccapurple;
+    font-weight: bold;
+}
